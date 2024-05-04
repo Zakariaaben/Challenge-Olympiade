@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@200..800&display=swap');
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:3% ;
+  padding-bottom: 3%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.rightnavbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 43px;
+  width: 40%;
+  
+}
+.rightnavbar p{
+  cursor: pointer;
+  
+  
+}
+
+.rightnavbar *{
+  font-size: 20px;
+}
+.lignes{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  padding: 0 !important;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.wrapper >*{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.wrapper h1 span{
+  color: #faf194;
+  font-family: "Manrope";
+
+}
+.wrapper > h1{
+  line-height: 1.3;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 40px;
+  
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.content >*{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content> :nth-child(1){
+  width: 39%;
+  background-image: url(https://cdn.discordapp.com/attachments/1236256176161685524/1236256270600769618/DSC00323.png?ex=663758df&is=6636075f&hm=4afb8bf72454594935809eab61765c89543f65518a3bce4020e34ec8d52e6c12&);
+  
+}
+.content> :nth-child(2){
+  width: 27%;
+  background-image: url(https://cdn.discordapp.com/attachments/1236256176161685524/1236256270013698058/DSC00277_1.png?ex=663758df&is=6636075f&hm=37cb98e6557675827fb370a8a6aa8e45eb6517ce9ab0a0d37f805805a2fe730d&);
+
+}
+.content> :nth-child(3){
+  width: 27%;
+  background-image: url(https://cdn.discordapp.com/attachments/1236256176161685524/1236256270013698058/DSC00277_1.png?ex=663758df&is=6636075f&hm=37cb98e6557675827fb370a8a6aa8e45eb6517ce9ab0a0d37f805805a2fe730d&);
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 400px;
+  justify-content: end;
+  padding: 20px;
+  gap: 20px;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+  
+  
+}
+.card:hover{
+  scale:1.01;
+}
+ .card h2{
+  font-size: 24px;
+  width: 100%;
+ }
+.content button{
+  background-color: white;
+  border: 0px;
+  color: #181d48;
+  height: 40px;
+  border-radius: 7px;
+  width: 70%;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  
+ }
+ .content >:nth-child(1) span{
+  color:#faf194;
+ }
+ .content >:nth-child(1) button{
+  width: 45%;
+
+  
+ }
